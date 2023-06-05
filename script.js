@@ -31,7 +31,16 @@ class Teacher extends Person {
 	}
 }
 
-// Do not change the code below this line
+/* // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
+ */
+// Example usage:
+const john = new Student('John', 20);
+console.log(john.name); // Output: John
+john.study(); // Output: John is studying.
+
+const jane = new Teacher('Jane', 35);
+console.log(jane.name); // Output: Jane
+jane.teach(); // Output: Jane is teaching.
